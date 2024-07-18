@@ -6,4 +6,13 @@ This article is going to be presented at ASONAM 2024: The 16th International Con
 
 If you use this code, or use the findings from the paper, please cite it appropriately.
 
-> Insert article data here once the Proceedings of ASONAM 2024 have been published.
+```
+Check again once the Proceedings have been published
+@inproceedings{chierichetti2024rums,
+  title={RUMs with Ties: A Discrete Choice Model Allowing Multiple Winners},
+  author={Chierichetti, Flavio and Kumar, Ravi and Re, Giuseppe and Tomkins, Andrew},
+  booktitle={Proceedings of the 16th International Conference on Advances in Social Networks Analysis and Mining},
+  pages={N/A},
+  year={2024}
+}
+```
