@@ -16,3 +16,13 @@ Check again once the Proceedings have been published
   year={2024}
 }
 ```
+
+## Reproducibility
+
+The main folder contains the notebooks used to run the experiments:
+- `delta-MNL.ipynb` only contains the training/testing for delta-MNL.
+- `experiments.ipynb` contains training/testing for all the other discrete choice models. 
+- `inferences.ipynb` contains the experiments used to compute the implicit inferences returned by Algorithm 1.
+
+
+To generate all the files needed to run these notebooks, refer to the `README` in the `data` folder.
