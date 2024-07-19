@@ -1,4 +1,22 @@
 #!/bin/bash
+mkdir slates
+mkdir slates/train
+mkdir slates/test
+mkdir mnl_datasets
+mkdir mnl_datasets/train
+mkdir mnl_datasets/test
+mkdir rumwt_pred
+mkdir rumwt_pred/train
+mkdir rumwt_pred/test
+mkdir lp
+mkdir lp/train
+mkdir lp/test
+mkdir lp_rumwt
+mkdir lp_rumwt/train
+mkdir lp_rumwt/test
+mkdir lp_rumwt_pred
+mkdir lp_rumwt_pred/train
+mkdir lp_rumwt_pred/test
 python random_split.py clean/*.csv
 python slates_generator.py clean/train/sushi_* --slatesize=3 --minfreq=2
 python slates_generator.py clean/test/sushi_* --slatesize=3 --minfreq=2 --numslates=10000
